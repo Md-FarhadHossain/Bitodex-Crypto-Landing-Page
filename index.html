@@ -1,50 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bitodex - Crypto Landing Page</title>
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <nav>
-        <!-- Logo -->
-        <div class="">
-            <img src="./assets/Logo.png" alt="logo">
-        </div>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar section -->
+    <section id="navbar">
+      <nav class="container">
+        <div class="navbar_content items-center">
+          <!-- Logo -->
+          <div class="">
+            <img src="./assets/Logo.png" alt="logo" />
+          </div>
 
-        <!-- Menu -->
-        <div class="">
+          <!-- Menu -->
+          <div class="menu_items flex items-center">
             <!-- Menu items -->
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#solutions">Solutions</a></li>
-                <li><a href="#pricing">Pricing</a></li>
-                <li><a href="#contact_us"> Contact Us</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#solutions">Solutions</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#contact_us"> Contact Us</a></li>
             </ul>
 
-            <!-- Social icons -->
-            <ul>
-                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-            </ul>
-            
-            <!-- Search & Login button -->
-            <ul>
-                <li><a href="#"><img src="./assets/search-icon.png" alt="search-icon"></a></li>
+            <div class="nav_left_side flex items-center">
+              <!-- Social icons -->
+              <ul class="nav_social_icons flex">
                 <li>
-                    <img src="./assets/login-icon.png" alt="login-icon">
-                    <button>Login</button>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                 </li>
-            </ul>
-           
+                <li>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+              </ul>
+
+              <!-- Search & Login button -->
+              <ul class="flex nav_searh_login items-center">
+                <li>
+                  <a href="#"
+                    ><img src="./assets/search-icon.png" alt="search-icon"
+                  /></a>
+                </li>
+
+                <li class="">
+                  
+                  <button class="nav_login_btn flex items-center"> <img class="login_icon" src="./assets/login-icon.png" alt="login-icon" /> Login</button>
+                </li>
+
+              </ul>
+              <!-- Search & Login button end -->
+            </div>
+          </div>
         </div>
-    </nav>
-</body>
+      </nav>
+    </section>
+    <!-- Navbar section end -->
+  </body>
 </html>
